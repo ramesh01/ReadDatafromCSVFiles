@@ -1,0 +1,13 @@
+<!-- <router-outlet></router-outlet> -->
+
+<p>Upload File (.csv)</p>
+<input type="file" (change)="readFile($event)" accept=".csv">
+
+<table *ngIf="tableData">
+  <tr *ngFor="let row of tableData">
+    <td>{{row[0]}}</td>
+    <td>{{row[1]}}</td>
+    <td>{{row[2]}}</td>
+    <td>{{row[3]}}</td>
+  </tr>
+</table>
