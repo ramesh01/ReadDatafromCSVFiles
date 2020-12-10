@@ -12,7 +12,7 @@ export class AppComponent {
     this.tableData;
   }
   ngOnInit() {
-    console.log('WelCome');
+    console.log('WelCome to you!!🍕🍕');
 
   }
 
